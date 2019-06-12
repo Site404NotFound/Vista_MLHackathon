@@ -1,0 +1,26 @@
+{
+  "name": "vista_mlhackathon",
+  "version": "1.0.0",
+  "description": "2019 Vista AI/ML Hackathon",
+  "main": "alerts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Site404NotFound/Vista_MLHackathon.git"
+  },
+  "author": "James Hippler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Site404NotFound/Vista_MLHackathon/issues"
+  },
+  "homepage": "https://github.com/Site404NotFound/Vista_MLHackathon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.1.2",
+    "papaparse": "^5.0.0",
+    "react-csv-to-table": "0.0.2"
+  }
+}

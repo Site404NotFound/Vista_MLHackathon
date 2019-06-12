@@ -1,0 +1,48 @@
+.container {
+      max-width: 10000px;
+      /* width: 100%; */
+}
+
+body html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+#heading {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
+#headcont {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-radius: .3rem;
+}
+
+.display-title {
+  font-family: roboto;
+  font-weight: 400;
+}
+
+.container{
+  height:100%;
+  width: 100%;
+  display: flex;
+}
+
+.jumbotron{
+  height: 100%;
+  width: 100%;
+}
+
+/* .restven {
+  margin-top: -5vh;
+  text-align: center;
+} */

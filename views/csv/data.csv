@@ -1,0 +1,7 @@
+
+,Group,Device,Datasource,Datapoint,Began,End,Pod,cluster_id
+0,"CloudCollector, CloudCollector/p01.us-west-1.ng, Linux Hosts, DC-US-West-1, Servers by Application/Cloud Collector/Scheduler, Pods/p01.us-west-1.ng",ccsched-i-f51e5b40.us-west-1,PuppetStatus_v2,environment,2019-03-20 15:54:56-07:00,,p01.us-west-1.ng,2
+1,"CloudCollector, CloudCollector/p01.us-west-1.ng, Linux Hosts, DC-US-West-1, Servers by Application/Cloud Collector/Scheduler, Pods/p01.us-west-1.ng",ccsched-i-f51e5b40.us-west-1,PuppetStatus_v2,environment,2019-03-20 15:54:56-07:00,,p01.us-west-1.ng,2
+2,"CloudCollector, CloudCollector/p01.us-west-1.ng, Linux Hosts, DC-US-West-1, Servers by Application/Cloud Collector/Scheduler, Pods/p01.us-west-1.ng",ccsched-i-f51e5b40.us-west-1,PuppetStatus_v2,environment,2019-03-20 15:54:56-07:00,,p01.us-west-1.ng,2
+3,"CloudCollector, CloudCollector/p01.us-west-1.ng, Linux Hosts, DC-US-West-1, Servers by Application/Cloud Collector/Scheduler, Pods/p01.us-west-1.ng",ccsched-i-f51e5b40.us-west-1,PuppetStatus_v2,environment,2019-03-20 15:54:56-07:00,,p01.us-west-1.ng,2
+4,"CloudCollector, CloudCollector/p01.us-west-1.ng, Linux Hosts, DC-US-West-1, Servers by Application/Cloud Collector/Scheduler, Pods/p01.us-west-1.ng",ccsched-i-f51e5b40.us-west-1,PuppetStatus_v2,environment,2019-03-20 15:54:56-07:00,,p01.us-west-1.ng,2

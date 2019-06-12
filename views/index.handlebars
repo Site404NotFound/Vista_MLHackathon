@@ -1,0 +1,47 @@
+<script src="https://cdn.zoomcharts-cloud.com/1/latest/zoomcharts.js"></script>
+
+<div id="headcont"class="container">
+  <div class="row">
+    <div class="col-lg">
+      <div id="heading" class="jumbotron">
+        <h1 class="display-title"><i class="fas fa-exclamation-triangle"></i> Alerts</h1>
+        <hr class="my-4">
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                  <th scope="col"> </th>
+                  <th scope="col">Alerts</th>
+                  <th scope="col">Datapoints</th>
+                  <th scope="col">Devices</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each dataList}}
+              <tr>
+                <td><button type="button" class="btn btn-primary" onclick="setCurrentAura('cluster-{{this.id}}')">Cluster {{this.number}}</button></td>
+                <td>{{this.alerts}}</td>
+                <td>{{this.datapoints}}</td>
+                <td>{{this.devices}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg">
+    <div id="heading" class="jumbotron">
+      <h1 class="display-title"><i class="fab fa-hubspot"></i> Topology</h1>
+      <hr class="my-4">
+      <p>
+        <div id='demo'></div>
+      </p>
+      <p>
+        <input class="btn btn-primary" type=button onclick="collapse()" value="Collapse" />
+        <input class="btn btn-primary" type=button onclick="expand()" value="Expand" />
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="/javascript/topology.js"></script>
